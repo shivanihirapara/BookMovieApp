@@ -1,0 +1,52 @@
+.header {
+  text-align: center;
+  padding: 8px,32px,8px,16px;
+  height: 36px;
+  background: #222;
+  text-transform: uppercase;
+}
+.header img {
+  background-color: ff7f7f;
+  width: 100px;
+  height: 35px;
+  animation: linear 8s infinite;
+}
+/* .header Button{
+  width: 100px;
+  height: 35px;
+  padding-left: 70px;
+} */
+.upcoming-movies-heading{
+  text-align: center;
+  background-color: #ff9999;
+  padding: 8px;
+  font-size:  1rem;
+}
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  /* background-color: #08c708; */
+  width: 300px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.grid {
+  display: grid;
+  height: 100%;
+  gap: 10px;
+  grid-auto-columns: minmax(8rem, auto);
+  grid-auto-flow: column;
+  overflow-x: scroll;
+}
+GridList{
+  overflow-x: auto;
+  flex-wrap: nowrap; 
+ }
+.imgClass{
+  width: 76%;
+  float: left;
+}
+.filterClass{
+  width: 24%;
+  float: right;
+}
